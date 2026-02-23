@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-reliance-xr",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Reliance XR / xGen panels",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "reliance",
+    "xgen",
+    "interlogix"
+  ],
+  "engines": {
+    "homebridge": ">=1.6.0",
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "fetch-cookie": "^2.2.0",
+    "node-fetch": "^2.7.0",
+    "tough-cookie": "^4.1.4"
+  },
+  "license": "MIT"
+}
